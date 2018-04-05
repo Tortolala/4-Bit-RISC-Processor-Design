@@ -15,7 +15,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="valign" val="base"/>
     </tool>
   </lib>
-  <main name="Substractor"/>
+  <main name="Adder"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -48,8 +48,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate"/>
   </toolbar>
-  <circuit name="Substractor">
-    <a name="circuit" val="Substractor"/>
+  <circuit name="Adder">
+    <a name="circuit" val="Adder"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
@@ -136,8 +136,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="inputs" val="2"/>
     </comp>
   </circuit>
-  <circuit name="Adder">
-    <a name="circuit" val="Adder"/>
+  <circuit name="Substractor">
+    <a name="circuit" val="Substractor"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
@@ -202,7 +202,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="Overflow"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp loc="(260,140)" name="Substractor"/>
+    <comp loc="(260,140)" name="Adder"/>
     <comp lib="0" loc="(280,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -213,8 +213,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>
     </comp>
-    <comp loc="(260,190)" name="Substractor"/>
-    <comp loc="(260,90)" name="Substractor"/>
+    <comp loc="(260,190)" name="Adder"/>
+    <comp loc="(260,90)" name="Adder"/>
     <comp lib="1" loc="(120,290)" name="NOT Gate">
       <a name="facing" val="north"/>
       <a name="size" val="20"/>
@@ -247,7 +247,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp loc="(260,240)" name="Substractor"/>
+    <comp loc="(260,240)" name="Adder"/>
     <comp lib="1" loc="(40,260)" name="NOT Gate">
       <a name="facing" val="north"/>
       <a name="size" val="20"/>
